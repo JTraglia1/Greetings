@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/**
+*  The activity_main.xml file contains the elements and attributes associated with
+*  various components of the Scorekeeper application. This application
+*  utilizes a constraint layout, Buttons, EditTexts, and TextViews.
+*
+*  @author Joseph Traglia
+*
+*/-->
+<androidx.fragment.app.FragmentContainerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:name="androidx.navigation.fragment.NavHostFragment"
+    app:navGraph="@navigation/nav_graph"
+    app:defaultNavHost="true"
+    tools:context=".MainActivity" />

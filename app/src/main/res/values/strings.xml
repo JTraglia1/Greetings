@@ -1,0 +1,19 @@
+<!--/**
+*  The strings.xml file is a resource that contains an identifier for all
+*  strings utilized in the activity_main.xml file.
+*
+*  @author Joseph Traglia
+*
+*/-->
+<resources>
+    <string name="app_name">Greetings - JT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tvTextTranslated">Translated Text</string>
+    <string name="tvLanguageSelection">Please Select a Language to Translate</string>
+    <string name="btnTranslate">Translate</string>
+    <string-array name="spnLanguages">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+    </string-array>
+</resources>
